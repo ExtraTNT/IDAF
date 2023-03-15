@@ -1,0 +1,23 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Einleitung}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Übersicht}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Persönliche Motivation}{2}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Einführung in das Thema}{3}{section.2}%
+\contentsline {section}{\numberline {3}ChatGPT}{3}{section.3}%
+\contentsline {section}{\numberline {4}Wie gut kann ChatGPT Songtexte analysieren?}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Durbatuluk - Der Quell}{4}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Frank / Farvann}{4}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Lyrics Der Quell}{4}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}Analyse ChatGPT}{5}{subsubsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.4}Worte von Frank}{6}{subsubsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.2}Slayer - Angel Of Death}{7}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Slayer}{7}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Lyrics Angel Of Death}{8}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Analyse ChatGPT}{9}{subsubsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.4}Worte von Slayer}{9}{subsubsection.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.5}Interpretation von Metalheads}{9}{subsubsection.4.2.5}%
+\contentsline {section}{\numberline {5}Fazit}{10}{section.5}%
+\contentsline {section}{Abbildungsverzeichnis}{11}{section.5}%
+\contentsline {section}{Quellenverzeichnis}{11}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Dankessagen}{12}{subsection.5.1}%
+\contentsline {section}{\numberline {6}Eigenständigkeitserklärung}{13}{section.6}%

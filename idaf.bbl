@@ -1,0 +1,261 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ynt/global//global/global}
+    \entry{aodLyrics}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f81b8ac0ba88c89574c29ea1da87563c}{%
+           family={Hanneman},
+           familyi={H\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Genius}%
+      }
+      \strng{namehash}{f81b8ac0ba88c89574c29ea1da87563c}
+      \strng{fullhash}{f81b8ac0ba88c89574c29ea1da87563c}
+      \strng{bibnamehash}{f81b8ac0ba88c89574c29ea1da87563c}
+      \strng{authorbibnamehash}{f81b8ac0ba88c89574c29ea1da87563c}
+      \strng{authornamehash}{f81b8ac0ba88c89574c29ea1da87563c}
+      \strng{authorfullhash}{f81b8ac0ba88c89574c29ea1da87563c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Genius Slayer - Angel of Death}
+      \field{month}{10}
+      \field{title}{Slayer – Angel of Death}
+      \field{year}{1986}
+      \verb{urlraw}
+      \verb https://genius.com/Slayer-angel-of-death-lyrics
+      \endverb
+      \verb{url}
+      \verb https://genius.com/Slayer-angel-of-death-lyrics
+      \endverb
+    \endentry
+    \entry{slayerInterview}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=54e1546337d7b0ed7a82e9308d56e20b}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Knac.com}%
+      }
+      \strng{namehash}{54e1546337d7b0ed7a82e9308d56e20b}
+      \strng{fullhash}{54e1546337d7b0ed7a82e9308d56e20b}
+      \strng{bibnamehash}{54e1546337d7b0ed7a82e9308d56e20b}
+      \strng{authorbibnamehash}{54e1546337d7b0ed7a82e9308d56e20b}
+      \strng{authornamehash}{54e1546337d7b0ed7a82e9308d56e20b}
+      \strng{authorfullhash}{54e1546337d7b0ed7a82e9308d56e20b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Knac.com - features - interview with slayer's Jeff H}
+      \field{month}{7}
+      \field{title}{Knac - interview with slayer's Jeff H}
+      \field{year}{2004}
+      \verb{urlraw}
+      \verb https://www.knac.com/article.asp?articleid=3153
+      \endverb
+      \verb{url}
+      \verb https://www.knac.com/article.asp?articleid=3153
+      \endverb
+    \endentry
+    \entry{farvannImg}{book}{}
+      \name{author}{1}{}{%
+        {{hash=cbe5924de400d3d58905fd9550c4ff72}{%
+           family={Farvann},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbe5924de400d3d58905fd9550c4ff72}
+      \strng{fullhash}{cbe5924de400d3d58905fd9550c4ff72}
+      \strng{bibnamehash}{cbe5924de400d3d58905fd9550c4ff72}
+      \strng{authorbibnamehash}{cbe5924de400d3d58905fd9550c4ff72}
+      \strng{authornamehash}{cbe5924de400d3d58905fd9550c4ff72}
+      \strng{authorfullhash}{cbe5924de400d3d58905fd9550c4ff72}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Metal-Archives - Farvann}
+      \field{title}{Farvann}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://www.metal-archives.com/images/7/3/3/2/733237_artist.jpg?1027
+      \endverb
+      \verb{url}
+      \verb https://www.metal-archives.com/images/7/3/3/2/733237_artist.jpg?1027
+      \endverb
+    \endentry
+    \entry{derQuellLyrics}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c6035f1cde6fcacefe913cde341465dd}{%
+           family={Busch},
+           familyi={B\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Genius}%
+      }
+      \strng{namehash}{c6035f1cde6fcacefe913cde341465dd}
+      \strng{fullhash}{c6035f1cde6fcacefe913cde341465dd}
+      \strng{bibnamehash}{c6035f1cde6fcacefe913cde341465dd}
+      \strng{authorbibnamehash}{c6035f1cde6fcacefe913cde341465dd}
+      \strng{authornamehash}{c6035f1cde6fcacefe913cde341465dd}
+      \strng{authorfullhash}{c6035f1cde6fcacefe913cde341465dd}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Genius Durbatuluk - Der Quell}
+      \field{month}{8}
+      \field{title}{Durbatuluk – Der Quell}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://genius.com/Durbatuluk-der-quell-lyrics
+      \endverb
+      \verb{url}
+      \verb https://genius.com/Durbatuluk-der-quell-lyrics
+      \endverb
+    \endentry
+    \entry{ChatGPT}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ef44b8a7fa9f85a025cf3121ee213386}{%
+           family={AI},
+           familyi={A\bibinitperiod},
+           given={Open},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Open AI}%
+      }
+      \strng{namehash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{fullhash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{bibnamehash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{authorbibnamehash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{authornamehash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{authorfullhash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{ChatGPT}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://chat.openai.com/
+      \endverb
+      \verb{url}
+      \verb https://chat.openai.com/
+      \endverb
+    \endentry
+    \entry{durbatulukbandcamp}{misc}{}
+      \list{publisher}{1}{%
+        {Bandcamp}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Durbatuluk - Bandcamp}
+      \field{title}{Bandcamp - Durbatuluk}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://durbatuluk.bandcamp.com/
+      \endverb
+      \verb{url}
+      \verb https://durbatuluk.bandcamp.com/
+      \endverb
+    \endentry
+    \entry{Mail}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c6035f1cde6fcacefe913cde341465dd}{%
+           family={Busch},
+           familyi={B\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6035f1cde6fcacefe913cde341465dd}
+      \strng{fullhash}{c6035f1cde6fcacefe913cde341465dd}
+      \strng{bibnamehash}{c6035f1cde6fcacefe913cde341465dd}
+      \strng{authorbibnamehash}{c6035f1cde6fcacefe913cde341465dd}
+      \strng{authornamehash}{c6035f1cde6fcacefe913cde341465dd}
+      \strng{authorfullhash}{c6035f1cde6fcacefe913cde341465dd}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{Mail: ChatGPT analysiert der Quell}
+      \field{month}{3}
+      \field{year}{2023}
+    \endentry
+    \entry{farvann2023}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=cbe5924de400d3d58905fd9550c4ff72}{%
+           family={Farvann},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbe5924de400d3d58905fd9550c4ff72}
+      \strng{fullhash}{cbe5924de400d3d58905fd9550c4ff72}
+      \strng{bibnamehash}{cbe5924de400d3d58905fd9550c4ff72}
+      \strng{authorbibnamehash}{cbe5924de400d3d58905fd9550c4ff72}
+      \strng{authornamehash}{cbe5924de400d3d58905fd9550c4ff72}
+      \strng{authorfullhash}{cbe5924de400d3d58905fd9550c4ff72}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Farvann - Encyclopaedia Metallum: The Metal Archives}
+      \field{month}{2}
+      \field{title}{Metal-Archives - Farvann}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.metal-archives.com/artists/Farvann/733237
+      \endverb
+      \verb{url}
+      \verb https://www.metal-archives.com/artists/Farvann/733237
+      \endverb
+    \endentry
+    \entry{youtubefarvann}{misc}{}
+      \list{publisher}{1}{%
+        {YouTube}%
+      }
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{YouTube - Farvann}
+      \field{title}{Youtube - Farvann}
+      \verb{urlraw}
+      \verb https://www.youtube.com/@Farvann
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/@Farvann
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
