@@ -103,13 +103,14 @@ style=numeric
 		\maketitle
 		\thispagestyle{empty}
 	\end{titlepage}
-
+	\onecolumn
 	\pagestyle{fancy}
 	\tableofcontents
 	\clearpage
+	\twocolumn
 	
 	\section{Einleitung}
-		Diese Arbeit setzt sich mit dem AI-Language-Model ChatGPT\cite{ChatGPT} auseinander. Es wird überprüft, wie gut ChatGPT darin ist schwierige Texte zu analysieren. Dafür werden zwei Songs interpretiert. Der eine ist \say{Der Quell} von \say{Durbatuluk}, der andere ist say{Angel Of Death} von \say{Slayer}. Es wird die volgende Frage versucht zu beantworten:\\
+		Diese Arbeit setzt sich mit dem AI-Language-Model ChatGPT\cite{ChatGPT} auseinander. Es wird überprüft, wie gut ChatGPT darin ist schwierige Texte zu analysieren. Dafür werden zwei Songs interpretiert. Der eine ist \say{Der Quell} von \say{Durbatuluk}, der andere ist \say{Angel Of Death} von \say{Slayer}. Es wird die volgende Frage versucht zu beantworten:\\
 		\textbf{\say{Wie gut kann ChatGPT Songtexte von Metal Songs analysieren?}}
 		\subsection{Übersicht}
 		Im zuerst wird ChatGPT\cite{ChatGPT} im Grundsatz beschrieben. Dann folgt der Song \say{Der Quell} von \say{Durbatuluk}. Dabei wird zuerst der Musiker vorgestellt, dann wird der Songtext aufgezeigt, darauf folgt die analyse von ChatGPT und zum Schluss, was der Musiker selber zum Text sagt. \say{Der Quell} wurde für die Analyse gewählt, da der Text sehr komplex ist und die gesamte Meinung des Textes zwischen den Zeilen steht.\\
@@ -123,9 +124,17 @@ style=numeric
 		Ich bin ein Fan des Oneman-Projects \say{Durbatuluk}, welches von Frank, besser bekannt als Farvann geführt wird.  
 	\clearpage
 	\section{Einführung in das Thema}
+	ChatGPT\cite{ChatGPT} ist eine sehr weit entwickelte künstliche Intelligenz, welche sehr gute, menschenähnliche Texte generieren kann. Um die Stärke davon zu testen, werden Liedtexte von Metalsongs mit ChatGPT analysiert. Diese Analyse wird dann verglichen, mit dem, was Metalheads, bzw. der Songwriter dazu sagt. Durch die Komplexität dieser Songs ist es besonders schwierig, die Songs zu analysieren, weshalb davon relativ gut darauf geschlossen werden kann, wie gut ChatGPT im generellen ist und wo die Gefahren liegen.
 	
 	\pagebreak
 	\section{ChatGPT}
+	Wie funktioniert eigentlich ChatGPT\cite{ChatGPT}? Im folgenden Abschnitt wird dies versucht zu erklähren. Dabei wird auf den offiziellen Text von OpenAI\cite{openai_2022} gesetzt, jedoch auch persönliches Wissen über die Thematik verwendet.\\
+	Es gilt zu beachten, dass dieser Text extrem grob zusammen gefasst ist, da man mit dem Thema locker eine Arbeit im Umfang von mehreren hundert Seiten schreiben kann.
+	\subsection{Transformer}
+	Ein Transformer-Model ist ein neuronales Netzwerk, welches Wörter miteinander verbindet. Ein Transformer-Model ist sehr günstig und effektiv zu trainieren, da die Daten nicht vorher ausgewertet werden müssen, sondern dies automatisiert beim Training passiert. Mit dieser Methode ist es einfach möglich, dass das Transformer-Model Wörter, wie es \say{versteht}. Wobei Verstehen das falsche Wort ist. Das Model versteht nichts, sondern kann nur Zusammenhänge aus Mustern erkennen. Dadurch kann das Transformer-Model jeweils das nächste Wort in einem Satz vorhersagen.
+	\subsection{Reinforcement Learning from Human Feedback (RLHF)}
+	Reinforcement Learning from Human Feedback ist eine Art, wie eine künstiliche Intelligenz anwendungsspezifisch trainiert werden kann, wenn bereits ein Transformer-Model existiert. Dabei wird (zumindest im Falle von ChatGPT) zuerst die Gewichtung ausgebaut, indem eine Prompt (Text-Input für den Transformer) gegeben wird und ein Output, welcher erwartet wird.\\
+	In einem weiteren Schritt wird dies verfeinert, indem verschiedene Ausgaben generiert werden und diese nach der Qualität eingeordnet werden. Das fertig trainierte Model kann dan Texte schreiben, welche man fast nicht von einem menschlichen Text unterscheiden kann.
 	
 	\pagebreak
 	\section{Wie gut kann ChatGPT Songtexte analysieren?}
@@ -256,11 +265,18 @@ style=numeric
 			\textit{\say{Der Quell} handelt von den allerersten Momenten, die der Sterbende erfährt. Als Kontrast zu den allerletzten Momenten, die sein Kamerad (in \say{Hingabe}) mit ihm erlebte.}
 		\clearpage
 		\subsection{Slayer - Angel Of Death}
-			\say{Angel Of Death} ist der erste Song auf dem Album \say{Regin in Blood} aus 1986 von der amerikanischen Thrash Metal Band Slayer. Der Song wurde von Jeff Hannerman geschrieben und handelt über den Nazi Doktor Josef Mengele, welcher im zweiten Weltkrieg im KZ-Auschwitz grausame Experimente an Insassen vorgenommen hat.\\
-			
+			\say{Angel Of Death} ist der erste Song auf dem Album \say{Regin in Blood} aus 1986 von der amerikanischen Thrash Metal Band Slayer. Der Song wurde von Jeff Hanneman geschrieben und handelt über den Nazi Doktor Josef Mengele, welcher im zweiten Weltkrieg im KZ-Auschwitz grausame Experimente an Insassen vorgenommen hat.\\
+			Der Song ist wie für Slayer typisch sehr brutal und beschreibend. Der Song beschreibt sehr grafisch die grausamen experimente von Mengele. Empfindliche Personen sollten daher die Lyrics in Unterkapitel \autoref{laod} nicht lesen.
 			\subsubsection{Slayer}
+			\begin{figure}[H]
+				\includegraphics[width=\linewidth]{slayer-2016}
+				\caption{Slayer - 2016 - Overdrive\cite{overdrive_2018}}
+			\end{figure}
+			Slayer ist eine Thrash-Metalband aus Huntington Park, California, USA, sie wurden 1981 gegründet und gehört zu den Big 4 of Thrash Metal (Metallica, Anthrax, Megadeth und Slayer). Sie ist dabei bekannt dafür den brutalen (brvtal) aggresivsten und ungezähmtesten Sound. Slayer hat mit ihrem besonders schnellen, harten und dunklen Sound die Thrash-Metal-Geschichte massgeblich geformt und vile Bands beeinflusst. Slayer singt vorallem über Krieg, Leiden, Serienmörder, Genozid, Folter, Rassismus, Faschismus und Satanismus, wobei Tom Araya ein gläubiger Katholik ist.\\
+			Das originale Layout bestand aus Tom Araya als Sänger und Bassist, Jeff Hanneman als Gitarist, Dave Lombardo als Schlagzeuger und Kerry King auch as Gitarist.\\
+			Später kammen noch dazu: Paul Bostaph als Schlagzeuger, Gary Holt als Ersatz von Jeff, nach dessen Tod, Tony Scalione als Schlagzeuger und Jon Datte auch als Schlagzeuger.\cite{slayerInterview}\\
 			\clearpage
-			\subsubsection{Lyrics Angel Of Death}
+			\subsubsection{Lyrics Angel Of Death}\label{laod}
 			\begin{figure}[H]
 				\centering\includegraphics[width=\linewidth]{ReignInBlood.jpg}
 				\caption{Album Cover Reign In Blood}
@@ -356,25 +372,51 @@ style=numeric
 			\say{Angel Of Death} ist ein umstritener Slayer Song von 1986 aus der Perspektive von Josef Mengele, einem berüchtigten Nazi-Arzt, der während des Holocausts grausame medizinische Experimente an Häftlingen durchführte. Der Song beschreiben die Taten von Mengele und die Schrecken des Holocausts. Während einige argumentieren, dass es als mächtige Kritik an den Holocausts dient, kritisieren andere es dafür, dass es den Holocaust trivialisiere oder sogar Nazi-Ideologie fördere.
 			\subsubsection{Worte von Slayer}
 			Der folgende Text stammt aus einem Interview von Knac.com\cite{slayerInterview} und wurde gekürtzt und übersetzt.\\
-			Hannerman meinte: \say{In den Anfängen war einfach nichts zutun. Es gab kein Tourbus, wir sind mit Autos umher gefahren, es gab einfach nichts zu tun, also habe ich Bücher über den zweiten Weltkrieg gekauft und gelesen.}\\
-			Auf die Frage, ob dies seinen Schreiben beeinflussen würde, antwortete Hannerman: \say{Ja. Bevor ich Angel Of Death geschrieben habe habe ich ein paar Bücher über Mengel gelesen, da er verdammt krank ist. Das war, wie der Song zustande kamm.}\\
+			Hanneman meinte: \say{In den Anfängen war einfach nichts zutun. Es gab kein Tourbus, wir sind mit Autos umher gefahren, es gab einfach nichts zu tun, also habe ich Bücher über den zweiten Weltkrieg gekauft und gelesen.}\\
+			Auf die Frage, ob dies seinen Schreiben beeinflussen würde, antwortete Hanneman: \say{Ja. Bevor ich Angel Of Death geschrieben habe habe ich ein paar Bücher über Mengel gelesen, da er verdammt krank ist. Das war, wie der Song zustande kamm.}\\
 			Er wurde darauf gefragt, ob es eine grosse Missinterpretation sei, dass leute Slayer als Nazis, Satanisten und Rassisten einschätzen, da sie damit gehen \say{Oh mein Gott! Angel Of Death -- das ist so pro-Nazi!} Hanneman antwortete darauf: \say{Ich weiss, warum Leute das so missinterpretieren. Es ist einfach eine Kurzschlussreaktion. Wenn sie den Text lesen und dann ist nichts drin, wo ich sage, dass er ein schlechter Mann ist. Ist das aber nicht offensichtlich?! Ich sollte das nicht erklähren müssen.}\\
-			Er wird dann gefragt, ob es eines der taboo Themen sei, wo Leute direkt die Falscheinschätzung machen, dass jemand Nazi sei, nur weil er es anspricht. Worauf Hannerman sarkatisch antwortet: \say{Genau, nur weil wir nicht sagen, dass es sehr schlecht ist.}\\
+			Er wird dann gefragt, ob es eines der taboo Themen sei, wo Leute direkt die Falscheinschätzung machen, dass jemand Nazi sei, nur weil er es anspricht. Worauf Hanneman sarkatisch antwortet: \say{Genau, nur weil wir nicht sagen, dass es sehr schlecht ist.}\\
 			Der Interviewer sagt dann sarkastisch: \say{Also hören wir nicht was sie sagen oder was im Text steht und machen einfach jetzt Annahmen.}\\
-			Hannerman bestätigt dies mit: \say{Genau, es ist eine Kurzschlussreaktion ala: Huh?, Oh mein Gott!!!}
+			Hanneman bestätigt dies mit: \say{Genau, es ist eine Kurzschlussreaktion ala: Huh?, Oh mein Gott!!!}
+			\begin{figure}[H]
+				\centering\includegraphics[width=.97\linewidth]{jeff.jpeg}
+				\caption{Jeff Hanneman - Jon Widerhorn\cite{jonwiederhorn_2022}}
+			\end{figure}
 			
-			
+			\clearpage
 			\subsubsection{Interpretation von Metalheads}
-			Durch eine Befragung auf dem Farvann-Discord-Server sind viele Meinungen von anderen Metalheads zusammen gekommen.
-	
-	\clearpage
+			Durch eine Befragung auf dem Farvann-Discord-Server sind einige Meinungen von anderen Metalheads zusammen gekommen.\\
+			lekille screibt:
+			\begin{center}
+			\textit{When it comes to slayer's angel of death, it does extremely little to make themselves out as nazis. Considering the rampant satanic themes in slayer and metal generally, to use a nazi mass murder and torturer as topic for a song should be expected. In no way does the song glorify or give admiration, simply takes the horrible things mengeles did and made a song out of it}	
+			\end{center}
+			Auf Deutsch: \say{Wenn es um Slayers Angel of Death geht, tut es extrem wenig, um sie als Nazis darzustellen. In Anbetracht der weit verbreiteten satanischen Themen in Slayer und im Metal im Allgemeinen, sollte man erwarten, dass ein Nazi-Massenmörder und Folterknecht als Thema für einen Song verwendet wird. Der Song verherrlicht oder bewundert in keiner Weise die schrecklichen Dinge, die Mengeles getan hat, und macht daraus einen Song.}\\
+			Jason.jpeg schreibt:
+			\begin{center}
+				\textit{Angel of Death geht um den NS Offizier Josef Mengele, der mehrere tausend Menschen in Experementen getötet hat (darunter zählt Köpfe zusammennähen, Zellen in Augen reinspritzen etc)}\\
+				\textit{Das Lied selber hat keine verteidigende Meinung, aber auch keine offensive, weshalb es aus dem Grund als Naziverherrlichung dargestellt wurde.}
+			\end{center}
+			Meine Meinung:
+			\begin{center}
+				\textit{Slayer ist eine Band, die über Geschichte singt. Das macht sie doch nicht zu Nazis. Gerade wenn man bedenkt, dass sie Thrash-Metal produzieren. Da geht es um Provokation, um das Kritisieren, um das Zeigen von Problemen.}\\
+				\textit{Nur weil ein paar Leute nicht lesen können oder die Musik nicht verstehen, sollten sie die Band nicht als Nazis abstempeln.}\\
+				\textit{Ich meine du beleidigst dein Geschichtslehrer ja auch nicht als Nazi, da er zeigt, was für Experimente Mengele durchgeführt hat und dabei nicht sagt, dass er ein schlechter Mensch war.}\\
+				\textit{Leute, die eine Band nicht verstehen und sich auch keine Mühe geben, sie zu verstehen sollten ihr Maul halten und nicht falsche Informationen über die Band verbreiten.}\\
+				\textit{Du kannst jeden Metalhead fragen, was er über Slayer denkt und keiner wird dir sagen, dass sie Nazis sind.}
+			\end{center}
+		\subsubsection{Analyse Analyse ChatGPT}
+			
+		\vfill
+		\clearpage
 	\section{Fazit}
 	Durch dieses Experiment kann man gut aufzeigen, dass ChatGPT\cite{ChatGPT} eben doch nicht immer gute Texte leifern kann. Die Interpretationen sind zwar glaubhaft, aber gerade im Fall von \say{Der Quell} alles andere als Richtig.\\
 	Durch sehr glaubhafte, jedoch falsche Texte entsteht die Gefahr, dass Fehler nicht auffallen und somit falsche Texte verbreitet werden und weiter zitiert werden.\\	
 	Jedoch ist es auch schwierig diese Texte von selbstgeschriebenen Texten zu unterscheiden. Somit ist es möglich ganze Arbeiten für die Schule oder Uni innerhalb wenigen Stunden zu schreiben. Diese Texte sind dabei meist von hoher Qualität und können nicht wirklich von einem von Menschenhand geschriebenem Text geschriebenem werden.\\	
 	Die Songtexte sind etwas vom schwierigsten zum Analysieren, gerade \say{Der Quell} ist sehr komplex und kann nicht einfach nur mit dem Wissen aus dem Text alleine sinnvoll analysiert und in Kontext gebracht werden.\\	
 	Es ist erschreckend, wie viel die AI herausfindet, bzw. wie sie die Zusammenhänge herausfindet. Im Falle von \say{Angle of Death} ist der Text gut analysiert, im Falle von \say{Der Quell} sind die Fehler nur zu finden, wenn man über erweitertes Wissen über den Musiker und dessen Vorstellungen hat. Dafür fällt dann der ganze Text auseinander.\\	
-	Was der von ChatGPT geschriebenen Text von \say{Der Quell} von einem menschlichen Text unterscheidet ist jedoch eigentlich nur die Überzeugung von der Richtigkeit der Interpretation, die ChatGPT vorlegt. 
+	Was der von ChatGPT geschriebenen Text von \say{Der Quell} von einem menschlichen Text unterscheidet ist jedoch eigentlich nur die Überzeugung von der Richtigkeit der Interpretation, die ChatGPT vorlegt.\\
+	\say{Angle Of Death} wurde recht gut analysiert, jedoch wurde Rudolf Höss erwähnt. Geschlichtlich zwar akkurat im Sinne, dass Höss in Auschwitz tätig war, jedoch hat Slayer in \say{Angle Of Death} ihn nicht erwähnt und auch keine Referenzen gemacht.\\
+	Ansonsten ist die Interpretation aber sehr gut und deckt sich mit den Meinungen von anderen Metalheads.\\
 	
 	\clearpage
 
@@ -386,13 +428,21 @@ style=numeric
 	\clearpage
 	
 	\subsection{Dankessagen}
-	Ich möchte mich hierbei bei Frank aka Farvann bedanken, dass er sich Zeit genommen hat zu analysieren, was ChatGPT über seinen Song zu erzählen hat und mir dann seine Gedanken und Überlegungen zum Song \say{Der Quell} mitzuteilen.
+	Ich möchte mich hierbei bei Frank aka Farvann bedanken, dass er sich Zeit genommen hat zu analysieren, was ChatGPT über seinen Song zu erzählen hat und mir dann seine Gedanken und Überlegungen zum Song \say{Der Quell} mitzuteilen.\\
+	Ich möchte mich auch bei allen Brüdern und Schwestern vom Farvan-Discord bedanken, die mir geholfen haben.
 	
 	\clearpage	
 	\onehalfspacing
 	\section{Eigenständigkeitserklärung}
-	Hiermit bestätige ich, dass die Arbeit mein eigenes Werk ist. Verwendete Quellen sind gekenzeichnet, Zitate sind kursiv geschrieben. Chatbots, namentlich ChatGPT\cite{ChatGPT} wurden nur zur Analyse dessen Funktion, bzw dessen Texte verwendet. Verwendungen von dessen Texten sind Gekenzeichnet (Analyse ChatGPT) und sind durch das gewählten Thema unausweichbar.
-	
+	Hiermit bestätige ich, dass die Arbeit mein eigenes Werk ist. Verwendete Quellen sind gekenzeichnet, Zitate sind kursiv geschrieben. Chatbots, namentlich ChatGPT\cite{ChatGPT} wurden nur zur Analyse dessen Funktion, bzw dessen Texte verwendet. Verwendungen von dessen Texten sind Gekenzeichnet (Analyse ChatGPT) und sind durch das gewählten Thema unausweichbar.\\
+	Das Dokument steht unter der GNU Free Documentation License Version 1.3 oder höher. Die Lizenz verfügt über ein Copyleft, welches vorschreibt, dass das Dokument nur unter der GNU Free Documentation License Version 1.3 oder höher weiterverbreitet wird. Vom Copyleft ausgenommen ist die Gewerblich-industrielle Berufsschule Bern zur Bewertung der Arbeit. Für alles andere gelten die Bedingungen der Lizenz.
+	\vspace{4cm}\\
+	\makeatletter
+	\begin{tabularx}{8cm}{X}
+	\\\hline
+	Signatur: \@author
+	\end{tabularx}
+	\makeatother
 
 	
 \end{document}

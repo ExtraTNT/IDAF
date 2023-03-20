@@ -4,6 +4,8 @@
 \contentsline {subsection}{\numberline {1.2}Persönliche Motivation}{2}{subsection.1.2}%
 \contentsline {section}{\numberline {2}Einführung in das Thema}{3}{section.2}%
 \contentsline {section}{\numberline {3}ChatGPT}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Transformer}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Reinforcement Learning from Human Feedback (RLHF)}{3}{subsection.3.2}%
 \contentsline {section}{\numberline {4}Wie gut kann ChatGPT Songtexte analysieren?}{4}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Durbatuluk - Der Quell}{4}{subsection.4.1}%
 \contentsline {subsubsection}{\numberline {4.1.1}Frank / Farvann}{4}{subsubsection.4.1.1}%
@@ -15,9 +17,10 @@
 \contentsline {subsubsection}{\numberline {4.2.2}Lyrics Angel Of Death}{8}{subsubsection.4.2.2}%
 \contentsline {subsubsection}{\numberline {4.2.3}Analyse ChatGPT}{9}{subsubsection.4.2.3}%
 \contentsline {subsubsection}{\numberline {4.2.4}Worte von Slayer}{9}{subsubsection.4.2.4}%
-\contentsline {subsubsection}{\numberline {4.2.5}Interpretation von Metalheads}{9}{subsubsection.4.2.5}%
-\contentsline {section}{\numberline {5}Fazit}{10}{section.5}%
-\contentsline {section}{Abbildungsverzeichnis}{11}{section.5}%
-\contentsline {section}{Quellenverzeichnis}{11}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Dankessagen}{12}{subsection.5.1}%
-\contentsline {section}{\numberline {6}Eigenständigkeitserklärung}{13}{section.6}%
+\contentsline {subsubsection}{\numberline {4.2.5}Interpretation von Metalheads}{10}{subsubsection.4.2.5}%
+\contentsline {subsubsection}{\numberline {4.2.6}Analyse Analyse ChatGPT}{10}{subsubsection.4.2.6}%
+\contentsline {section}{\numberline {5}Fazit}{11}{section.5}%
+\contentsline {section}{Abbildungsverzeichnis}{12}{section.5}%
+\contentsline {section}{Quellenverzeichnis}{12}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Dankessagen}{13}{subsection.5.1}%
+\contentsline {section}{\numberline {6}Eigenständigkeitserklärung}{14}{section.6}%

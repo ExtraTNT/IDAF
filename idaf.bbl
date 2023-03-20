@@ -110,6 +110,24 @@
       \verb https://www.metal-archives.com/images/7/3/3/2/733237_artist.jpg?1027
       \endverb
     \endentry
+    \entry{overdrive_2018}{misc}{}
+      \list{publisher}{1}{%
+        {Overdrive}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Overdrive}
+      \field{month}{1}
+      \field{title}{Slayer confirm Final world tour}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.overdrive.ie/slayer-confirm-final-world-tour-details/
+      \endverb
+      \verb{url}
+      \verb https://www.overdrive.ie/slayer-confirm-final-world-tour-details/
+      \endverb
+    \endentry
     \entry{derQuellLyrics}{misc}{}
       \name{author}{1}{}{%
         {{hash=c6035f1cde6fcacefe913cde341465dd}{%
@@ -170,6 +188,68 @@
       \endverb
       \verb{url}
       \verb https://chat.openai.com/
+      \endverb
+    \endentry
+    \entry{jonwiederhorn_2022}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=bfeb49e203748baff6c2f1532951daa5}{%
+           family={Jonwiederhorn},
+           familyi={J\bibinitperiod},
+           given={Jon},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Loudwire}%
+      }
+      \strng{namehash}{bfeb49e203748baff6c2f1532951daa5}
+      \strng{fullhash}{bfeb49e203748baff6c2f1532951daa5}
+      \strng{bibnamehash}{bfeb49e203748baff6c2f1532951daa5}
+      \strng{authorbibnamehash}{bfeb49e203748baff6c2f1532951daa5}
+      \strng{authornamehash}{bfeb49e203748baff6c2f1532951daa5}
+      \strng{authorfullhash}{bfeb49e203748baff6c2f1532951daa5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Loudwire}
+      \field{month}{5}
+      \field{title}{9 years ago - slayer guitarist Jeff Hanneman Dies}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://loudwire.com/slayer-jeff-hanneman-death-anniversary/
+      \endverb
+      \verb{url}
+      \verb https://loudwire.com/slayer-jeff-hanneman-death-anniversary/
+      \endverb
+    \endentry
+    \entry{openai_2022}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=0523b13262b12c215d8009938f5c14f1}{%
+           family={OpenAI},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {OpenAI}%
+      }
+      \strng{namehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{fullhash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{bibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorbibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authornamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorfullhash}{0523b13262b12c215d8009938f5c14f1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Introducing ChatGPT}
+      \field{month}{11}
+      \field{title}{Introducing chatgpt}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://openai.com/blog/chatgpt
+      \endverb
+      \verb{url}
+      \verb https://openai.com/blog/chatgpt
       \endverb
     \endentry
     \entry{durbatulukbandcamp}{misc}{}
