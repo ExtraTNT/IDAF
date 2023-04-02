@@ -51,6 +51,33 @@
       \verb https://genius.com/Slayer-angel-of-death-lyrics
       \endverb
     \endentry
+    \entry{nme_2001}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=678038d20530afd02ec65c8a4a036869}{%
+           family={Nme},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{678038d20530afd02ec65c8a4a036869}
+      \strng{fullhash}{678038d20530afd02ec65c8a4a036869}
+      \strng{bibnamehash}{678038d20530afd02ec65c8a4a036869}
+      \strng{authorbibnamehash}{678038d20530afd02ec65c8a4a036869}
+      \strng{authornamehash}{678038d20530afd02ec65c8a4a036869}
+      \strng{authorfullhash}{678038d20530afd02ec65c8a4a036869}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NME}
+      \field{month}{10}
+      \field{title}{Slayer 'murder' case thrown out}
+      \field{year}{2001}
+      \verb{urlraw}
+      \verb https://www.nme.com/news/music/slayer-41-1373957
+      \endverb
+      \verb{url}
+      \verb https://www.nme.com/news/music/slayer-41-1373957
+      \endverb
+    \endentry
     \entry{slayerInterview}{misc}{}
       \name{author}{1}{}{%
         {{hash=54e1546337d7b0ed7a82e9308d56e20b}{%
@@ -128,6 +155,35 @@
       \verb https://www.overdrive.ie/slayer-confirm-final-world-tour-details/
       \endverb
     \endentry
+    \entry{slayer.net}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=121189969c46f49b8249633c2d5a7bfa}{%
+           family={Slayer},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nuclear Blast Records}%
+      }
+      \strng{namehash}{121189969c46f49b8249633c2d5a7bfa}
+      \strng{fullhash}{121189969c46f49b8249633c2d5a7bfa}
+      \strng{bibnamehash}{121189969c46f49b8249633c2d5a7bfa}
+      \strng{authorbibnamehash}{121189969c46f49b8249633c2d5a7bfa}
+      \strng{authornamehash}{121189969c46f49b8249633c2d5a7bfa}
+      \strng{authorfullhash}{121189969c46f49b8249633c2d5a7bfa}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Slayer}
+      \field{title}{Repentless: The official slayer site}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.slayer.net/
+      \endverb
+      \verb{url}
+      \verb https://www.slayer.net/
+      \endverb
+    \endentry
     \entry{derQuellLyrics}{misc}{}
       \name{author}{1}{}{%
         {{hash=c6035f1cde6fcacefe913cde341465dd}{%
@@ -159,6 +215,35 @@
       \endverb
       \verb{url}
       \verb https://genius.com/Durbatuluk-der-quell-lyrics
+      \endverb
+    \endentry
+    \entry{jesus}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=082aae3f04188e8f0f9827ffff0f9842}{%
+           family={metalpoleguy16},
+           familyi={m\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {reddit}%
+      }
+      \strng{namehash}{082aae3f04188e8f0f9827ffff0f9842}
+      \strng{fullhash}{082aae3f04188e8f0f9827ffff0f9842}
+      \strng{bibnamehash}{082aae3f04188e8f0f9827ffff0f9842}
+      \strng{authorbibnamehash}{082aae3f04188e8f0f9827ffff0f9842}
+      \strng{authornamehash}{082aae3f04188e8f0f9827ffff0f9842}
+      \strng{authorfullhash}{082aae3f04188e8f0f9827ffff0f9842}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{reddit}
+      \field{title}{R/metalmemes - according to Tom Araya 15:69}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.reddit.com/r/MetalMemes/comments/g5zibu/according_to_tom_araya_1569/
+      \endverb
+      \verb{url}
+      \verb https://www.reddit.com/r/MetalMemes/comments/g5zibu/according_to_tom_araya_1569/
       \endverb
     \endentry
     \entry{ChatGPT}{misc}{}
@@ -317,6 +402,97 @@
       \endverb
       \verb{url}
       \verb https://www.metal-archives.com/artists/Farvann/733237
+      \endverb
+    \endentry
+    \entry{huggingface_2023}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a1b20abfe1139656a959e84ef8ebbb02}{%
+           family={Huggingface},
+           familyi={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {GitHub}%
+      }
+      \strng{namehash}{a1b20abfe1139656a959e84ef8ebbb02}
+      \strng{fullhash}{a1b20abfe1139656a959e84ef8ebbb02}
+      \strng{bibnamehash}{a1b20abfe1139656a959e84ef8ebbb02}
+      \strng{authorbibnamehash}{a1b20abfe1139656a959e84ef8ebbb02}
+      \strng{authornamehash}{a1b20abfe1139656a959e84ef8ebbb02}
+      \strng{authorfullhash}{a1b20abfe1139656a959e84ef8ebbb02}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{GitHub Huggingface/Transformers}
+      \field{title}{Transformers/SRC/transformers at main · Huggingface/Transformers}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://github.com/huggingface/transformers/tree/main/src/transformers
+      \endverb
+      \verb{url}
+      \verb https://github.com/huggingface/transformers/tree/main/src/transformers
+      \endverb
+    \endentry
+    \entry{linkedlist}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=63d3284055f00b0562e3fc54273a2507}{%
+           family={Python},
+           familyi={P\bibinitperiod},
+           given={Real},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Real Python}%
+      }
+      \strng{namehash}{63d3284055f00b0562e3fc54273a2507}
+      \strng{fullhash}{63d3284055f00b0562e3fc54273a2507}
+      \strng{bibnamehash}{63d3284055f00b0562e3fc54273a2507}
+      \strng{authorbibnamehash}{63d3284055f00b0562e3fc54273a2507}
+      \strng{authornamehash}{63d3284055f00b0562e3fc54273a2507}
+      \strng{authorfullhash}{63d3284055f00b0562e3fc54273a2507}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Real Python}
+      \field{month}{1}
+      \field{title}{Linked lists in Python: An introduction}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://realpython.com/linked-lists-python/
+      \endverb
+      \verb{url}
+      \verb https://realpython.com/linked-lists-python/
+      \endverb
+    \endentry
+    \entry{mesh}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=70079656133b3884f6c571fd69f37e6f}{%
+           family={University},
+           familyi={U\bibinitperiod},
+           given={Stanford},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Stanford University}%
+      }
+      \strng{namehash}{70079656133b3884f6c571fd69f37e6f}
+      \strng{fullhash}{70079656133b3884f6c571fd69f37e6f}
+      \strng{bibnamehash}{70079656133b3884f6c571fd69f37e6f}
+      \strng{authorbibnamehash}{70079656133b3884f6c571fd69f37e6f}
+      \strng{authornamehash}{70079656133b3884f6c571fd69f37e6f}
+      \strng{authorfullhash}{70079656133b3884f6c571fd69f37e6f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mesh Data Structure}
+      \field{title}{Mesh Data Structure - Stanford University}
+      \verb{urlraw}
+      \verb https://graphics.stanford.edu/courses/cs468-12-spring/LectureSlides/02_Mesh_Data_Structures.pdf
+      \endverb
+      \verb{url}
+      \verb https://graphics.stanford.edu/courses/cs468-12-spring/LectureSlides/02_Mesh_Data_Structures.pdf
       \endverb
     \endentry
     \entry{youtubefarvann}{misc}{}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.2.28)  20 MAR 2023 12:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.2.28)  2 APR 2023 15:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -710,24 +710,24 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (./idaf.aux)
 \openout1 = `idaf.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count424
@@ -750,18 +750,18 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 101.
-Package microtype Info: Applying patch `item' on input line 101.
-Package microtype Info: Applying patch `toc' on input line 101.
-Package microtype Info: Applying patch `eqnum' on input line 101.
-Package microtype Info: Applying patch `footnote' on input line 101.
+LaTeX Info: Redefining \microtypecontext on input line 100.
+Package microtype Info: Applying patch `item' on input line 100.
+Package microtype Info: Applying patch `toc' on input line 100.
+Package microtype Info: Applying patch `eqnum' on input line 100.
+Package microtype Info: Applying patch `footnote' on input line 100.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 101.
+LaTeX Info: Redefining \showhyphens on input line 100.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -833,20 +833,20 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'idaf.bbl' found.
  (./idaf.bbl)
-Package biblatex Info: Reference section=0 on input line 101.
-Package biblatex Info: Reference segment=0 on input line 101.
-Package hyperref Info: Link coloring ON on input line 101.
+Package biblatex Info: Reference section=0 on input line 100.
+Package biblatex Info: Reference segment=0 on input line 100.
+Package hyperref Info: Link coloring ON on input line 100.
 (./idaf.out) (./idaf.out)
 \@outlinefile=\write4
 \openout4 = `idaf.out'.
 
-<./images//title.png, id=98, 159.9576pt x 132.2541pt>
+<./images//title.png, id=102, 159.9576pt x 132.2541pt>
 File: ./images//title.png Graphic file (type png)
 <use ./images//title.png>
-Package pdftex.def Info: ./images//title.png  used on input line 103.
+Package pdftex.def Info: ./images//title.png  used on input line 102.
 (pdftex.def)             Requested size: 455.24411pt x 376.44376pt.
 
-Overfull \hbox (42.9116pt too wide) in alignment at lines 103--103
+Overfull \hbox (42.9116pt too wide) in alignment at lines 102--102
 [][] 
  []
 
@@ -863,39 +863,39 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.109 	\clearpage
+l.108 	\clearpage
                   [1
 
 
-] [2
-
-
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3
-
-]
-<./images//farvann.jpg, id=156, 667.74469pt x 493.0922pt>
-File: ./images//farvann.jpg Graphic file (type jpg)
-<use ./images//farvann.jpg>
-Package pdftex.def Info: ./images//farvann.jpg  used on input line 147.
-(pdftex.def)             Requested size: 111.31102pt x 82.19185pt.
-
-Underfull \hbox (badness 5490) in paragraph at lines 150--153
-\T1/cmr/m/n/10 (+20) si-ker[[][]9[][]], You-tu-ber[[][]12[][]]
+Underfull \hbox (badness 1215) in paragraph at lines 120--128
+\T1/cmr/m/n/10 (+20) Ich bin auch-un-ter an-de-rem Fan des Oneman-
  []
 
+[2
+
+
+]
+<./images//model.png, id=158, 242.9075pt x 604.2575pt>
+File: ./images//model.png Graphic file (type png)
+<use ./images//model.png>
+Package pdftex.def Info: ./images//model.png  used on input line 140.
+(pdftex.def)             Requested size: 211.49026pt x 526.09625pt.
+ [3
+
+ <./images//model.png>]
+<./images//farvann.jpg, id=173, 667.74469pt x 493.0922pt>
+File: ./images//farvann.jpg Graphic file (type jpg)
+<use ./images//farvann.jpg>
+Package pdftex.def Info: ./images//farvann.jpg  used on input line 152.
+(pdftex.def)             Requested size: 111.31102pt x 82.19185pt.
 
 Underfull \vbox (badness 2293) has occurred while \output is active []
 
-<./images//derQuell.jpg, id=163, 702.625pt x 702.625pt>
+<./images//derQuell.jpg, id=180, 702.625pt x 702.625pt>
 File: ./images//derQuell.jpg Graphic file (type jpg)
 <use ./images//derQuell.jpg>
-Package pdftex.def Info: ./images//derQuell.jpg  used on input line 164.
+Package pdftex.def Info: ./images//derQuell.jpg  used on input line 169.
 (pdftex.def)             Requested size: 166.96654pt x 166.96094pt.
  [4 <./images//farvann.jpg> <./images//derQuell.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -907,63 +907,56 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 [6]
-<./images//slayer-2016.jpg, id=196, 2007.5pt x 1129.21875pt>
+<./images//slayer-2016.jpg, id=212, 2007.5pt x 1129.21875pt>
 File: ./images//slayer-2016.jpg Graphic file (type jpg)
 <use ./images//slayer-2016.jpg>
-Package pdftex.def Info: ./images//slayer-2016.jpg  used on input line 272.
+Package pdftex.def Info: ./images//slayer-2016.jpg  used on input line 277.
 (pdftex.def)             Requested size: 222.62206pt x 125.2138pt.
+<./images//jesus.png, id=217, 803.0pt x 803.0pt>
+File: ./images//jesus.png Graphic file (type png)
+<use ./images//jesus.png>
+Package pdftex.def Info: ./images//jesus.png  used on input line 287.
+(pdftex.def)             Requested size: 222.62206pt x 222.62071pt.
+ [7
 
-Underfull \hbox (badness 1194) in paragraph at lines 275--278
-\T1/cmr/m/n/10 (+20) Später kam-men noch da-zu: Paul Bo-staph als
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 275--278
-
- []
-
-[7
-
-
- <./images//slayer-2016.jpg>]
-<./images//ReignInBlood.jpg, id=207, 57.0933pt x 57.0933pt>
+ <./images//slayer-2016.jpg> <./images//jesus.png>]
+<./images//ReignInBlood.jpg, id=231, 57.0933pt x 57.0933pt>
 File: ./images//ReignInBlood.jpg Graphic file (type jpg)
 <use ./images//ReignInBlood.jpg>
-Package pdftex.def Info: ./images//ReignInBlood.jpg  used on input line 281.
+Package pdftex.def Info: ./images//ReignInBlood.jpg  used on input line 293.
 (pdftex.def)             Requested size: 222.62206pt x 222.68037pt.
  [8
 
  <./images//ReignInBlood.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./images//jeff.jpeg, id=217, 289.08pt x 192.72pt>
+<./images//jeff.jpeg, id=243, 289.08pt x 192.72pt>
 File: ./images//jeff.jpeg Graphic file (type jpg)
 <use ./images//jeff.jpeg>
-Package pdftex.def Info: ./images//jeff.jpeg  used on input line 382.
+Package pdftex.def Info: ./images//jeff.jpeg  used on input line 394.
 (pdftex.def)             Requested size: 215.94366pt x 143.96031pt.
  [9
 
  <./images//jeff.jpeg>] [10
 
 ]
-Underfull \hbox (badness 1112) in paragraph at lines 412--420
+Underfull \hbox (badness 1112) in paragraph at lines 431--439
 \T1/cmr/m/n/10 (+20) Jedoch ist es auch schwie-rig die-se Tex-te von
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 412--420
+Underfull \hbox (badness 10000) in paragraph at lines 431--439
 
  []
 
 [11
-
 
 ] (./idaf.lof)
 \tf@lof=\write6
 \openout6 = `idaf.lof'.
 
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4
-27.
+53.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
@@ -980,28 +973,22 @@ Package microtype Info: Loading generic protrusion settings for font family
 ] [14
 
 ] (./idaf.aux)
-
-Package rerunfilecheck Warning: File `idaf.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `idaf.out':
-(rerunfilecheck)             Before: 74A3BC78EE78FDCDD678EE9321729558;3730
-(rerunfilecheck)             After:  8561AE6645C06FC62798C17273F7C030;3919.
+Package rerunfilecheck Info: File `idaf.out' has not changed.
+(rerunfilecheck)             Checksum: B8F4D1C674EE706CBE4A3C8E517E4554;3999.
 Package logreq Info: Writing requests to 'idaf.run.xml'.
 \openout1 = `idaf.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23819 strings out of 476091
- 415944 string characters out of 5794081
- 1867330 words of memory out of 5000000
- 43632 multiletter control sequences out of 15000+600000
- 532831 words of font info for 156 fonts, out of 8000000 for 9000
+ 23872 strings out of 476091
+ 417360 string characters out of 5794081
+ 1870330 words of memory out of 5000000
+ 43666 multiletter control sequences out of 15000+600000
+ 533642 words of font info for 162 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 63i,11n,74p,1149b,3216s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
-fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf/fonts/type1/public/
+ 63i,11n,74p,1149b,3214s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf
+/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/fonts/type1/public/
 cm-super/sfbi1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0800.pf
 b></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/
 fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/c
@@ -1012,10 +999,10 @@ onts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm
 </usr/share/texmf/fonts/type1/public/cm-super/sfti0800.pfb></usr/share/texmf/fo
 nts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-
 super/sftt1000.pfb>
-Output written on idaf.pdf (15 pages, 1517469 bytes).
+Output written on idaf.pdf (15 pages, 2190395 bytes).
 PDF statistics:
- 353 PDF objects out of 1000 (max. 8388607)
- 296 compressed objects within 3 object streams
- 55 named destinations out of 1000 (max. 500000)
- 39647 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 399 PDF objects out of 1000 (max. 8388607)
+ 333 compressed objects within 4 object streams
+ 63 named destinations out of 1000 (max. 500000)
+ 41713 words of extra memory for PDF output out of 42996 (max. 10000000)
 

@@ -87,10 +87,9 @@ style=numeric
 			\begin{tabularx}{.4\linewidth}{rl}
 				\textbf{Art der Arbeit:}				& IDAF, Deutsch - Geschichte\\
 				\textbf{Lehrpersonen:}					& Monika Michel, Ivo Knill\\
-				\textbf{Abgabetermin:}					& 21.03.2023\\
+				\textbf{Abgabetermin:}					& 03.04.2023\\
 				\textbf{Klasse:}						& Y2B	\\
-				\textbf{Lizenz:}						&
-				GNU FDL 1.3
+				\textbf{Lizenz:}						& GNU FDL 1.3
 			\end{tabularx}
 		\end{center}
 		
@@ -115,26 +114,32 @@ style=numeric
 		\subsection{Übersicht}
 		Im zuerst wird ChatGPT\cite{ChatGPT} im Grundsatz beschrieben. Dann folgt der Song \say{Der Quell} von \say{Durbatuluk}. Dabei wird zuerst der Musiker vorgestellt, dann wird der Songtext aufgezeigt, darauf folgt die analyse von ChatGPT und zum Schluss, was der Musiker selber zum Text sagt. \say{Der Quell} wurde für die Analyse gewählt, da der Text sehr komplex ist und die gesamte Meinung des Textes zwischen den Zeilen steht.\\
 		Nach \say{Der Quell} wird der Song \say{Angel Of Death} von \say{Slayer} angeschaut. Der aufbau hier ist sehr ähnlich, zuerst wird die Band vorgestellt, dann der Songtext, darauf folgt die Analyse von ChatGPT und dann wird die Meinung der Band zum Song aufgegriffen. \say{Angel Of Death} wurde für die Analyse gewählt, da der Song sehr viel falsch verstanden wird, da er sich den Opfer des Holocaust widmet.
+		\vfill
+		\pagebreak
 		\subsection{Persönliche Motivation}
 		Als Informatiker bin ich an neuen Technologien sehr interessiert. ChatGPT ist dabei ein sehr spannendes Thema, welches in der Bildung immer wie mehr Relevanz gewinnt. Texte von ChatGPT können kaum von menschlichen Texten unterschieden werden und das AI-Language-Model ist sehr gut darin, prägnante, gut erklärende Texte über fast alle Themen zu schreiben.\\
 		ChatGPT erleichtert unsere Arbeit enorm, da selbst technisch komplexe Probleme damit gelöst werden können. Wir haben es auf der Arbeit bereits hingekriegt, dass eine Aufgabe, welche auf einen Tag Aufwand geschätzt wurde, innert wenigen Minuten gelöst werden konnte.\\
-		%todo foss
+		Zudem bin ich von Open Source Software begeistert. Open Source Software ist Software, von welcher man den Source Code bekommt und diesen analysieren kann und so nachvollziehen kann, wie die Software funktioniert. Dies ist viel besser für die User, da sie sich so sicher sein können, dass die Software auch das macht, was sie soll und nicht wie bei Software, die von Herstellern wie Microsoft kommt, der User nicht sicher sein kann, was die Software genau macht.\\
 		Ich bin ausserdem Metalhead, sprich eine Person, die Metal hört, mit einer Kutte herumläuft, sich und andere Metalheads als \say{trve} / \say{trve kvlt} bezeichnet und die Musik als sehr wichtig erachtet.\\ 
-		Metal hat anders als andere Musikrichtungen verhältnismässig sehr komplexe Texte (Wobei es auch Ausnahmen gibt).\\ 
-		Ich bin ein Fan des Oneman-Projects \say{Durbatuluk}, welches von Frank, besser bekannt als Farvann geführt wird.  
+		Metal hat anders als andere Musikrichtungen verhältnismässig sehr komplexe Texte (Wobei es auch Ausnahmen gibt).\\
+		Ich bin vor allem in den extremeren Ecken des Metals interessiert, vor allem Black Metal, DSBM, Atmospheric Black Metal und Melodic Black Metal, aber auch Death und Thrash Metal, Folk Metal, Melodic Death Metal, Brutal Death metal usw.\\
+		Ich bin auchunter anderem Fan des Oneman-Projects \say{Durbatuluk}, welches von Frank, besser bekannt als Farvann geführt wird. Dieser war so nett und hat sich bereitgestellt einen von seinen Songs genauer zu erläutern.\\
+		Ich bin daran Motiviert, dass Leute sehen, dass Metal eine Musikrichtung ist, welche vielfältig ist, tiefgründige Texte hat und versucht aus etwas Negativem etwas Positives zu machen. Da ChatGPT an alltäglichen Daten Trainiert wurde, kann ich mir vorstellen, dass die AI gerade an Metal einige Probleme haben könnte. Es ist auf jeden Fall herausfordernd.
 	\clearpage
 	\section{Einführung in das Thema}
 	ChatGPT\cite{ChatGPT} ist eine sehr weit entwickelte künstliche Intelligenz, welche sehr gute, menschenähnliche Texte generieren kann. Um die Stärke davon zu testen, werden Liedtexte von Metalsongs mit ChatGPT analysiert. Diese Analyse wird dann verglichen, mit dem, was Metalheads, bzw. der Songwriter dazu sagt. Durch die Komplexität dieser Songs ist es besonders schwierig, die Songs zu analysieren, weshalb davon relativ gut darauf geschlossen werden kann, wie gut ChatGPT im generellen ist und wo die Gefahren liegen.
-	
-	\pagebreak
-	\section{ChatGPT}
-	Wie funktioniert eigentlich ChatGPT\cite{ChatGPT}? Im folgenden Abschnitt wird dies versucht zu erklähren. Dabei wird auf den offiziellen Text von OpenAI\cite{openai_2022} gesetzt, jedoch auch persönliches Wissen über die Thematik verwendet.\\
+	\subsection{ChatGPT}
+	Wie funktioniert eigentlich ChatGPT\cite{ChatGPT}? Im folgenden Abschnitt wird dies versucht zu erklähren. Dabei wird auf den offiziellen Text von OpenAI\cite{openai_2022} gesetzt, jedoch auch persönliches Wissen über die Thematik verwendet. Um dies zu verstehen hilft es, wenn man die Mesh\cite{mesh} und Linked-List\cite{linkedlist} Datenstruktur versteht und sich den Code der Transformer-Models\cite{huggingface_2023} angeschaut hat.\\
 	Es gilt zu beachten, dass dieser Text extrem grob zusammen gefasst ist, da man mit dem Thema locker eine Arbeit im Umfang von mehreren hundert Seiten schreiben kann.
-	\subsection{Transformer}
+	\subsubsection{Transformer}
 	Ein Transformer-Model ist ein neuronales Netzwerk, welches Wörter miteinander verbindet. Ein Transformer-Model ist sehr günstig und effektiv zu trainieren, da die Daten nicht vorher ausgewertet werden müssen, sondern dies automatisiert beim Training passiert. Mit dieser Methode ist es einfach möglich, dass das Transformer-Model Wörter, wie es \say{versteht}. Wobei Verstehen das falsche Wort ist. Das Model versteht nichts, sondern kann nur Zusammenhänge aus Mustern erkennen. Dadurch kann das Transformer-Model jeweils das nächste Wort in einem Satz vorhersagen.
-	\subsection{Reinforcement Learning from Human Feedback (RLHF)}
+	\subsubsection{Reinforcement Learning from Human Feedback (RLHF)}
 	Reinforcement Learning from Human Feedback ist eine Art, wie eine künstiliche Intelligenz anwendungsspezifisch trainiert werden kann, wenn bereits ein Transformer-Model existiert. Dabei wird (zumindest im Falle von ChatGPT) zuerst die Gewichtung ausgebaut, indem eine Prompt (Text-Input für den Transformer) gegeben wird und ein Output, welcher erwartet wird.\\
 	In einem weiteren Schritt wird dies verfeinert, indem verschiedene Ausgaben generiert werden und diese nach der Qualität eingeordnet werden. Das fertig trainierte Model kann dan Texte schreiben, welche man fast nicht von einem menschlichen Text unterscheiden kann.
+	\begin{figure}[H]
+		\includegraphics[width=.95\linewidth]{model}
+		\caption{Transformer Model Beispiel}
+	\end{figure}
 	
 	\pagebreak
 	\section{Wie gut kann ChatGPT Songtexte analysieren?}
@@ -162,7 +167,7 @@ style=numeric
 			\begin{figure}[H]
 				\centering
 				\includegraphics[width=.75\linewidth]{derQuell}
-				\caption{Album Cover - Aus anderen Augen}
+				\caption{Album Cover - Aus anderen Augen\cite{derQuellLyrics}}
 			\end{figure}
 		\begin{center}
 			\textbf{Durbatuluk - Der Quell - Frank Busch\cite{derQuellLyrics}}\\
@@ -220,21 +225,21 @@ style=numeric
 			\textit{[...] das was ChatGPT da interpretiert völliger Blödsinn ist.}\\
 			\textit{Ganz grob gesagt beschreibt die ganze EP \say{Aus Anderen Augen} das Sterben eines Mannes im Krieg.}\\
 			\textit{Im ersten Song \say{Hingabe} wird die Geschichte aus Sicht des Kameraden erzählt, der vom Tod seines Gefährten schreibt/berichtet bzw. erlebt.}\\
-			\textit{"Der Quell" erzählt vom Moment des Sterbens eben jenes Gefährten:}
+			\textit{\say{Der Quell} erzählt vom Moment des Sterbens eben jenes Gefährten:}
 			\begin{center}
 				\say{\textit{Heller ist mein Licht}\\
 					\textit{Fern bin ich von euch}\\
 					\textit{Fremd bin ich geworden}\\
 					\textit{Unten, weit oben?}}
 			\end{center}
-			\textit{Er realisiert gerade erst, dass er tot ist. Er tritt in das bekannte "grelle Licht" von dem so viele Nahtoderfahrungen berichten. Fremd (ein Geist?) ist er geworden, noch nicht dazu in der Lage, den Ort zu beschreiben, an dem er sich nun befindet (Unten, weit oben?)}
+			\textit{Er realisiert gerade erst, dass er tot ist. Er tritt in das bekannte \say{grelle Licht} von dem so viele Nahtoderfahrungen berichten. Fremd (ein Geist?) ist er geworden, noch nicht dazu in der Lage, den Ort zu beschreiben, an dem er sich nun befindet (Unten, weit oben?)}
 			\begin{center}
 				\say{\textit{Stets seid ihr präsent}\\
 				\textit{Alle um mich vereint}\\
 				\textit{Grauen, Heil und Wohlgemach}\\
 				\textit{Alles ist mein Sein}}
 			\end{center}
-			\textit{Soll beschreiben, wie der Tote nun "Zeit" erfährt. Hängt mit meiner ganz persönlichen Vorstellung vom Konzept der Zeit zusammen, weil ich glaube, dass Zeit, genau wie der Raum, eine Dimension ist, durch die man "wandern kann" (um es dreidimensional auszudrücken). Da er nun tot ist, ist er nicht mehr an das lineare Zeitverständnis gebunden, das sich unser menschliches Gehirn zusammenbastelt. Er fühlt sich nun vollständig als Teil des Ganzen. Was auch immer "das Ganze" ist, bleibt natürlich verborgen. Um das zu beschreiben reichen meine textlichen Fähigkeiten einfach nicht aus. Und als alter David Lynch Fan bin ich immer ein Freund davon, niemals alles aufzudecken. Win-Win-Situation an dieser Stelle aus Songschreiber-Sicht also.}
+			\textit{Soll beschreiben, wie der Tote nun \say{Zeit} erfährt. Hängt mit meiner ganz persönlichen Vorstellung vom Konzept der Zeit zusammen, weil ich glaube, dass Zeit, genau wie der Raum, eine Dimension ist, durch die man \say{wandern kann} (um es dreidimensional auszudrücken). Da er nun tot ist, ist er nicht mehr an das lineare Zeitverständnis gebunden, das sich unser menschliches Gehirn zusammenbastelt. Er fühlt sich nun vollständig als Teil des Ganzen. Was auch immer \say{das Ganze} ist, bleibt natürlich verborgen. Um das zu beschreiben reichen meine textlichen Fähigkeiten einfach nicht aus. Und als alter David Lynch Fan bin ich immer ein Freund davon, niemals alles aufzudecken. Win-Win-Situation an dieser Stelle aus Songschreiber-Sicht also.}
 			\begin{center}
 				\say{\textit{Spreche ich von Versagen}\\
 				\textit{Ihr versteht, ihr versteht}\\
@@ -272,14 +277,21 @@ style=numeric
 				\includegraphics[width=\linewidth]{slayer-2016}
 				\caption{Slayer - 2016 - Overdrive\cite{overdrive_2018}}
 			\end{figure}
-			Slayer ist eine Thrash-Metalband aus Huntington Park, California, USA, sie wurden 1981 gegründet und gehört zu den Big 4 of Thrash Metal (Metallica, Anthrax, Megadeth und Slayer). Sie ist dabei bekannt dafür den brutalen (brvtal) aggresivsten und ungezähmtesten Sound. Slayer hat mit ihrem besonders schnellen, harten und dunklen Sound die Thrash-Metal-Geschichte massgeblich geformt und vile Bands beeinflusst. Slayer singt vorallem über Krieg, Leiden, Serienmörder, Genozid, Folter, Rassismus, Faschismus und Satanismus, wobei Tom Araya ein gläubiger Katholik ist.\\
+			Slayer ist eine Thrash-Metalband aus Huntington Park, California, USA, sie wurden 1981 gegründet und gehört zu den Big 4 of Thrash Metal (Metallica, Anthrax, Megadeth und Slayer). Sie ist dabei bekannt dafür den brutalen (brvtal) aggresivsten und ungezähmtesten Sound. Slayer hat mit ihrem besonders schnellen, harten und dunklen Sound die Thrash-Metal-Geschichte massgeblich geformt und vile Bands beeinflusst. Slayer selber wurde von Bands, wie Iron Maiden, Judas Priest, Motörhead, aber auch einigen Punk Bands beeinflusst.\\
+			Slayer singt vor allem über Krieg, Leiden, Serienmörder, Genozid, Folter, Rassismus, Faschismus und Satanismus, wobei Tom Araya aber ein gläubiger Katholik ist.\\
 			Das originale Layout bestand aus Tom Araya als Sänger und Bassist, Jeff Hanneman als Gitarist, Dave Lombardo als Schlagzeuger und Kerry King auch as Gitarist.\\
-			Später kammen noch dazu: Paul Bostaph als Schlagzeuger, Gary Holt als Ersatz von Jeff, nach dessen Tod, Tony Scalione als Schlagzeuger und Jon Datte auch als Schlagzeuger.\cite{slayerInterview}\\
+			Später kammen noch dazu: Paul Bostaph als Schlagzeuger, Gary Holt als Ersatz von Jeff, nach dessen Tod, Tony Scalione als Schlagzeuger und Jon Datte auch als Schlagzeuger. \cite{slayer.net}\\
+			Der Band wurde mehrfach Satanismus und antireligiöses Verhalten vorgeworfen. Besonders in der USA gab es Klagen gegen die Band\cite{nme_2001}, jedoch wurden alle abgewiesen, da sie keinen Sinn ergeben haben, bzw. Zusammenhänge fehlten. Dies ist besonders ironisch, wenn man bedenkt, wie religiös der Frontmann Tom Araya ist und was er zu Slayer und Religion zusagen hat.\\
+			Dies führte später zu der Aussage: \say{Jesus listens to Slayer}, welche vor allem in der Meme-Kultur Beliebtheit gefunden hat.
+			\begin{figure}[H]
+				\includegraphics[width=\linewidth]{jesus}
+				\caption{Meme - metalpoleguy16\cite{jesus}}
+			\end{figure}
 			\clearpage
 			\subsubsection{Lyrics Angel Of Death}\label{laod}
 			\begin{figure}[H]
 				\centering\includegraphics[width=\linewidth]{ReignInBlood.jpg}
-				\caption{Album Cover Reign In Blood}
+				\caption{Album Cover - Reign In Blood\cite{aodLyrics}}
 			\end{figure}
 			\begin{center}
 			\textbf{Slayer - Angel Of Death - Jeff Hanneman\cite{aodLyrics}}\\
@@ -398,13 +410,20 @@ style=numeric
 			\end{center}
 			Meine Meinung:
 			\begin{center}
-				\textit{Slayer ist eine Band, die über Geschichte singt. Das macht sie doch nicht zu Nazis. Gerade wenn man bedenkt, dass sie Thrash-Metal produzieren. Da geht es um Provokation, um das Kritisieren, um das Zeigen von Problemen.}\\
+				\textit{Slayer ist eine Band, die über Geschichte singt. Das macht sie doch nicht zu Nazis. Gerade wenn man bedenkt, dass sie Thrash-Metal produzieren. Da geht es um Provokation, um das Kritisieren und um das Zeigen von Problemen.}\\
 				\textit{Nur weil ein paar Leute nicht lesen können oder die Musik nicht verstehen, sollten sie die Band nicht als Nazis abstempeln.}\\
 				\textit{Ich meine du beleidigst dein Geschichtslehrer ja auch nicht als Nazi, da er zeigt, was für Experimente Mengele durchgeführt hat und dabei nicht sagt, dass er ein schlechter Mensch war.}\\
 				\textit{Leute, die eine Band nicht verstehen und sich auch keine Mühe geben, sie zu verstehen sollten ihr Maul halten und nicht falsche Informationen über die Band verbreiten.}\\
 				\textit{Du kannst jeden Metalhead fragen, was er über Slayer denkt und keiner wird dir sagen, dass sie Nazis sind.}
 			\end{center}
-		\subsubsection{Analyse Analyse ChatGPT}
+		\subsubsection{Analyse der Analyse von ChatGPT}
+		ChatGPT ist in der Lage, den Song richtig zu datieren und erkennt die Band. ChatGPT behaupted, dass der Song aus der Perspektive von Mengele geschrieben würde, obwohl der Song am Anfang den Text \say{The way that I want you to die} beinhaltet, wird Mengele später als \say{Infamous butcher} referenziert. Jeff Hanneman hat  die Perspektive nie verraten. Jedoch ist der ganze Song wie eine Dokumentation geschrieben, weshalb zu bezweifeln ist, ob die Perspektive aus Sicht von Mengele ist.\\
+		Das Mengele von Slayer als Symbol des Todes dargestellt wird ist richtig und auch Typisch für Slayer.\\
+		Die Referenz zu Höss ist jedoch nicht, bzw. nicht direkt gegeben. Jedoch wird über \say{Destroying without mercy to benefit the Aryan race} gesungen (Zerstören ohne Erbarmen um der arischen Rasse zu helfen) was die Vernichtung der Juden im zweiten Weltkrieg, Hittlers \say{Endlösung} anspricht.\\
+		Es ist richtig, dass der Text sehr Grafisch und Brutal ist, dies ist typisch für Slayer. Auch die Beschreibung des Holocaust im Detail ist richtig.\\
+		Dass der Song kritisiert wird ist ebenfalls richtig.\\
+		ChatGPT sagt, dass der Text ohne Zweifel verstörend sind, aber es die einige sagen, dass es Kritik am Holocaust sei, während andere sagen, dass es unangebracht sei über dieses Thema zu schreiben. Was alles auch richtig ist.\\
+		Die Analyse von ChatGPT ist bis auf wenige Ausnahmen wirklich gut und nicht wirklich von einer menschlichen Analyse zu unterschieden. 
 			
 		\vfill
 		\clearpage
@@ -417,7 +436,14 @@ style=numeric
 	Was der von ChatGPT geschriebenen Text von \say{Der Quell} von einem menschlichen Text unterscheidet ist jedoch eigentlich nur die Überzeugung von der Richtigkeit der Interpretation, die ChatGPT vorlegt.\\
 	\say{Angle Of Death} wurde recht gut analysiert, jedoch wurde Rudolf Höss erwähnt. Geschlichtlich zwar akkurat im Sinne, dass Höss in Auschwitz tätig war, jedoch hat Slayer in \say{Angle Of Death} ihn nicht erwähnt und auch keine Referenzen gemacht.\\
 	Ansonsten ist die Interpretation aber sehr gut und deckt sich mit den Meinungen von anderen Metalheads.\\
-	
+	\vfill
+	\pagebreak
+	ChatGPT ist am Ende des Tages ein Tool, welches man mit Vorsicht nutzen sollte. Die Ergebnisse sind zwar gut, sollten aber nicht als Fakt erachtet werden. ChatGPT weiss effektiv nicht, über was sie spricht, sie kann nur Wörter vorhersagen, die im Text wahrscheinlich als nächstes kommen werden.\\
+	Schulen müssen aber trotzdem ihre Arbeiten überarbeiten, so dass der Auftrag nicht enfach mit ChatGPT erfüllt werden kann.\\
+	Momentan ist ChatGPT noch eher zum Spielen, bzw. für das Herumexperimentieren und Forschen gedacht, in der Zukunft werden wir aber vermutlich einmal mehr damit anfangen können.\\
+	Viele Leute verstehen leider nicht, wie solche künstlichen Intelligenzen funktionieren und was ihre Grenzen sind. Für mich persönlich war das Ergebnis nicht wirklich erstaunlich. Ich habe ein bisschen erwartet, dass ChatGPT Slayer mehr kritisieren würde, aber scheinbar waren da genug Daten beim Trainieren vorhanden, dass das Model genug Kontext über Slayer hatte.\\	
+	ChatGPT kann gut verwendet werden für irgendwelche Tests, Prototypen oder Ansätze, sollte aber jedoch nicht genutzt werden, für etwas Ernstes. ChatGPT sucht nur Zusammenhänge der Wörter, kennt aber dessen Meinung nicht.\\	
+	Leute müssen anfangen sich mit der Technologie zu beschäftigen, welcher sie vertrauen. Eine AI müsste anders trainiert werden, wenn sie spezialisierte Antworten liefern soll. Wahrscheinlich auch mit einem anderen Model als dem Transformer-Model. 
 	\clearpage
 
 	
@@ -429,7 +455,8 @@ style=numeric
 	
 	\subsection{Dankessagen}
 	Ich möchte mich hierbei bei Frank aka Farvann bedanken, dass er sich Zeit genommen hat zu analysieren, was ChatGPT über seinen Song zu erzählen hat und mir dann seine Gedanken und Überlegungen zum Song \say{Der Quell} mitzuteilen.\\
-	Ich möchte mich auch bei allen Brüdern und Schwestern vom Farvan-Discord bedanken, die mir geholfen haben.
+	Ich möchte mich auch bei allen Brüdern und Schwestern vom Farvan-Discord bedanken, die mir geholfen haben.\\
+	Ein weiterer Dank geht an alle Entwickler, die ihre Zeit brauchen, um die Technologie weiter zu treiben und solche Experimente möglich zu machen. Auch Huggingface hat sich ein Dank verdient, indem sie die Entwicklung der Transformer-Model vorantreiben.
 	
 	\clearpage	
 	\onehalfspacing
